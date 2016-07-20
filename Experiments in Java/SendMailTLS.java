@@ -24,7 +24,7 @@ public class SendMailTLS {
 	public static void main(String[] args) throws IOException {
 
 		final String username = "lawareh@gmail.com";
-		final String password = "BB36sec1kol3004";
+		final String password = "***";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", "true");
