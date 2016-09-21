@@ -6,7 +6,7 @@ This example is for Series 1 XBee
 Sends a TX16 or TX64 request with the value of analogRead(pin5) and checks the status response for success
 Note: In my testing it took about 15 seconds for the XBee to start reporting success, so I've added a startup delay
 */
-
+//Is modified by Hitesh Lawae for use in graduate course EC544 at BU ECE dept.
 XBee xbee = XBee();
 
 unsigned long start = millis();
